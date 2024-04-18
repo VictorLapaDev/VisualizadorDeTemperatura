@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.artigo{
+    margin-top: 10px;
+}
+
+#graus{
+    display: flex;
+    justify-content: center;
+}
+
+#menssagem{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#temperatura{
+    font-size: 80px;
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+#local{
+    border-radius: 10px;
+}
+
+#container{
+    background-color: rgb(154, 255, 255);
+    padding: 80px 90px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+}
+
+#imagi{
+    width: 100px;
+}
